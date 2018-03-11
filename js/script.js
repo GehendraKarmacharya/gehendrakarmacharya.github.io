@@ -1,5 +1,7 @@
 (function($){
 
+
+
   // Caption
   $('.article-entry').each(function(i){
     $(this).find('img').each(function(){
@@ -25,4 +27,6 @@
   $('#main-nav-toggle').click(function () {
     $('#header').toggleClass('mobile-on');
   });
+
+  console.log(document.location.hostname);
 })(jQuery);
